@@ -30,6 +30,9 @@ Supported browsers: firefox, chrome, ie, phantomjs, edge
 
 **Steps which I followed to create simple sample test for single responsive run test:**
 
+![Screenshot of repository size on GitHub](https://raw.githubusercontent.com/harshjv/github-repo-size/master/screenshot1.png)
+
+
 Create an empty folder with your test project name(tutorial) and in it create a file(homepage.gspec)
 
 Galen allows to configure each project separately. You just need to create a galen.config file in your test project directory
