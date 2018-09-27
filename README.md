@@ -85,5 +85,7 @@ More galen Specs Language – learning is in progress
 **Reference links:**
 
 http://galenframework.com/docs/reference-galen-spec-language-guide/
+
 http://galenframework.com/docs/reference-galen-test-suite-syntax/
+
 http://galenframework.com/docs/tutorial-first-project/
