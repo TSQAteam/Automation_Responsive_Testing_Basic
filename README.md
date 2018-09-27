@@ -11,19 +11,22 @@ Test the layout according to user-defined specs
 Once it sees that something is wrong – Galen reports the error, makes a screenshot and highlights the misbehaving element on it.
 
 **Installing galen:**
+
 We can install on Install on OS X and Linux.
 At the moment there is no installer for Windows. In order to make galen.bat script accessible in your command line you need to manually add it to your Path variable.
 
 **Adding config file:**
+
 Galen allows to configure each project separately. You just need to create a galen.config file in your test project directory or you can run this command and Galen will create a config file.
 
 
-
 **Configuring Browsers:**
+
 By default Galen uses Firefox browser (Now it supports Firefox version 46) but you can configure it to use any other browser in case it is not explicitly declared in your test suite. You can do it using this property in your config file.
 Supported browsers: firefox, chrome, ie, phantomjs, edge
 
 **Running Galen :**
+
 **Steps which I followed to create simple sample test for single responsive run test:**
 
 Create an empty folder with your test project name(tutorial) and in it create a file(homepage.gspec)
@@ -74,11 +77,13 @@ Now when we can view the reports screen in browser
 
 
 ***Note :**
+
 Now I have workout and checked for basic run of single section in a page and run for a single responsive size at a time.
 Other workouts with Test Suites in Galen Framework are inprogress.
 More galen Specs Language – learning is in progress
 
 **Reference links:**
+
 http://galenframework.com/docs/reference-galen-spec-language-guide/
 http://galenframework.com/docs/reference-galen-test-suite-syntax/
 http://galenframework.com/docs/tutorial-first-project/
