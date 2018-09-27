@@ -1,7 +1,7 @@
 # Automation_Responsive_Testing_Basic
 Automation Responsive Testing  (Galen Framework)
 
-Introduction:
+**Introduction:**
 Galen is a test framework originally designed for testing layout of web applications, When it comes to testing a responsive layout it works in a following way:
 Open a page in browser
 Resize it to specified size
