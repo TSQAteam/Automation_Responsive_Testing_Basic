@@ -1,4 +1,4 @@
-# Automated Responsive Testing Using Galen Framework
+# Automated Responsive Testing Using Galen Framework (Basic Level)
 
 **Introduction:**
 
