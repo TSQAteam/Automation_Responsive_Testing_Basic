@@ -29,7 +29,7 @@ Supported browsers: firefox, chrome, ie, phantomjs, edge
 
 **Steps which I followed to create simple sample test for single responsive run test:**
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot1.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot1.png)
 
 
 Create an empty folder with your test project name(tutorial) and in it create a file(homepage.gspec)
@@ -48,7 +48,7 @@ Now I have worked out for the test site http://testapp.galenframework.com/
 
 Tested for the responsive size of 360x640 and checked the spacing between the logo and header in site with respect to user spec
              
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot1.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot2.png)
 
 Galen has specific syntax for  to express exactly how you want your website to behave on different devices. There are two main parts in page specs file: object definitions and object specs. For every section we have to define syntax in a page.
 
@@ -61,7 +61,7 @@ xpath - uses XPath expressions
 
 Create an object by inspecting element and use CSS selector that allows me to fetch the element from the page.
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot2.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot3.png)
 
 In homepage.gspec file. Here I have given the header logo  as 3px left of header text . (But the correct value is 22 px). 
 
@@ -71,15 +71,15 @@ galen check homepage.gspec --url http://testapp.galenframework.com/ --size 360x6
 
 Now when we can view the reports screen in browser
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot3.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot4.png)
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot4.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot5.png)
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot5.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot6.png)
 
 **2. Test case - Passed**
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot6.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot7.png)
 
 In homepage.gspec file.  Here I have given the header logo  displays between 3 to 25px  left of header text 
 
@@ -88,11 +88,11 @@ galen check homepage.gspec --url http://testapp.galenframework.com/ --size 360x6
 
 Now when we can view the reports screen in browser
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot7.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot8.png)
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot8.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot9.png)
 
-![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-For-Responsive/blob/master/screenshot9.png)
+![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot10.png)
 
 ***Note :**
 
