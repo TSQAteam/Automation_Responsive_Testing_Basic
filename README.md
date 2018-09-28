@@ -32,21 +32,21 @@ Supported browsers: firefox, chrome, ie, phantomjs, edge
 ![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot1.png)
 
 
-Create an empty folder with your test project name(tutorial) and in it create a file(homepage.gspec)
+1. Create an empty folder with your test project name(tutorial) and in it create a file(homepage.gspec)
 
-Galen allows to configure each project separately. You just need to create a galen.config file in your test project directory
+2. Galen allows to configure each project separately. You just need to create a galen.config file in your test project directory
 Added config file for a added project.
 
-Create a file “homepage.gspec” for user defined spec.
+3. Create a file “homepage.gspec” for user defined spec.
 
 In order for galen to be able to communicate with browser we need to get a special driver for it. For Firefox you will need a geckodriver. For Chrome - chromedriver. Download a driver for whatever browser you have and extract it somewhere on your file system. 
 Now you need to define path for that driver in your global config.
 
-Downloaded geckodriver added the path in config file which is used for Firefox browser
+4. Downloaded geckodriver added the path in config file which is used for Firefox browser
 
-Now I have worked out for the test site http://testapp.galenframework.com/
+5. Now I have worked out for the test site http://testapp.galenframework.com/
 
-Tested for the responsive size of 360x640 and checked the spacing between the logo and header in site with respect to user spec
+6. Tested for the responsive size of 360x640 and checked the spacing between the logo and header in site with respect to user spec
              
 ![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot2.png)
 
@@ -62,17 +62,17 @@ xpath - uses XPath expressions
 
 **1. Test case - Failed**
 
-Create an object by inspecting element and use CSS selector that allows me to fetch the element from the page.
+1. Create an object by inspecting element and use CSS selector that allows me to fetch the element from the page.
 
 ![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot3.png)
 
-In homepage.gspec file. Here I have given the header logo  as 3px left of header text . (But the correct value is 22 px). 
+2. In homepage.gspec file. Here I have given the header logo  as 3px left of header text . (But the correct value is 22 px). 
 
-To perform a single page test you can use the command "check".
-Now run the test in command prompt using
+3. To perform a single page test you can use the command "check".
+4. Now run the test in command prompt using
 galen check homepage.gspec --url http://testapp.galenframework.com/ --size 360x640 --htmlreport reports
 
-Now when we can view the reports screen in browser
+5. Now when we can view the reports screen in browser
 
 ![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot4.png)
 
@@ -84,12 +84,12 @@ Now when we can view the reports screen in browser
 
 ![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot7.png)
 
-In homepage.gspec file.  Here I have given the header logo  displays between 3 to 25px  left of header text 
+1. In homepage.gspec file.  Here I have given the header logo  displays between 3 to 25px  left of header text 
 
-Now run the same test in command prompt using
+2. Now run the same test in command prompt using
 galen check homepage.gspec --url http://testapp.galenframework.com/ --size 360x640 --htmlreport reports
 
-Now when we can view the reports screen in browser
+3. Now when we can view the reports screen in browser
 
 ![Screenshot of repository size on GitHub](https://github.com/TSQAteam/QA-Automation-for-Responsive/blob/master/images/screenshot8.png)
 
