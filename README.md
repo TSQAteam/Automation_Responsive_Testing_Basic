@@ -53,8 +53,11 @@ Tested for the responsive size of 360x640 and checked the spacing between the lo
 Galen has specific syntax for  to express exactly how you want your website to behave on different devices. There are two main parts in page specs file: object definitions and object specs. For every section we have to define syntax in a page.
 
 Each Galen spec file normally starts with object definition. It is the place where you give names to page objects and also define the so called locators - the way for Galen to find element on test page. The available locators are:
+
 id - searches for object by id in DOM
+
 css - uses CSS selectors to find objects
+
 xpath - uses XPath expressions
 
 **1. Test case - Failed**
